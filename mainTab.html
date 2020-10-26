@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="mainTab.css">
+		<title>Main Tab</title>
+	</head>
+	<body onload="updateScores()">
+		<div id="overlay" onclick="winScreenOff()">
+			<div class="overlayContent">
+				<div id="text"></div>
+				<button class="button" onclick="restart()">Restart</button>
+			</div>
+		</div>
+		<div class="outer">
+			<div class="container">
+				<div class="X" id="X"><span id="P1">Player1</span> (X): <span id="wins1">0</span></div>
+				<div class="O" id="O"><span id="P2">Player2</span> (O): <span id="wins2">0</span></div>
+				<div class="gameBoard">
+					<div class="cell tl"></div>
+					<div class="cell tm"></div>
+					<div class="cell tr"></div>
+					<div class="cell ml"></div>
+					<div class="cell mm"></div>
+					<div class="cell mr"></div>
+					<div class="cell bl"></div>
+					<div class="cell bm"></div>
+					<div class="cell br"></div>
+				</div>
+				<div class="Statistics"><a href="statisticsTab.html">Statistics</a></div>
+				<div class="Settings"><a href="settingsTab.html">Settings</a></div>
+			</div>
+		</div>
+		<script src = "mainTab.js"></script>
+	</body>
+</html>

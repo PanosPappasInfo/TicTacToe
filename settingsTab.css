@@ -1,0 +1,112 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.outer {
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	margin: 105px;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+	grid-template-rows: auto auto;
+	width: 500px;
+	height: 500px;
+}
+
+.box {
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto auto auto;
+	background: white;
+	grid-gap: 3px;
+	color: black;
+	width: 501px;
+	height: 500px;
+	border-radius: 20px;
+	grid-column: 1 / 12;
+	grid-row: 1;
+}
+
+.cell {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 60px;
+	padding-top: 60px;
+	font-size: 30px;
+}
+
+.cell.Name1 {
+	grid-row: 1;
+	border-radius: 20px 20px 0px 0px;
+}
+
+input[type=text] {
+	width: auto;
+	border: none;
+	background-color: black;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+}
+
+.cell.Name2 {
+	grid-row: 2;
+	border-radius: 0px 0px 0px 0px;
+}
+
+.cell.Reset {
+	grid-row: 3;
+	border-radius: 0px 0px 20px 20px;
+	cursor: pointer;
+}
+
+.cell.Reset:hover {
+	background: DarkRed;
+}
+
+.Game,
+.Statistics {
+	border-radius: 0px 0px 15px 15px;
+	background: DarkGray;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 30px;
+}
+
+.Game:hover,
+.Statistics:hover {
+	background: MidnightBlue;
+}
+
+.Game {
+	grid-column: 2/6;
+	grid-row: 2;
+}
+
+.Statistics {
+	grid-column: 7/11;
+	grid-row: 2;
+}
+
+a {
+	color: white;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
