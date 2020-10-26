@@ -1,4 +1,8 @@
 # TicTacToe
 This is a fully functional mini game of the famous Tic Tac Toe. Using HTML, CSS and Javascript and with the use of the browsers' LocalStorage as a Database, this project makes a minimal digital approach to this 2-player classic game, saves statistics and gives the ability to change player names as well as reset your current score.
 
-![alt text](https://github.com/PanosPappasInfo/TicTacToe//GameBoard.png?raw=true)
+  The use is pretty easy. You just download the files and store them to the same location. Launch the game by opening the mainTab.html file on your prefered browser - I personally used the Microsoft Edge browser - .
+  The three tabs are clear to see and easy to learn. You just browse between them by using the buttons on the bottom of the dark box. The first tab works with the following way: The tabs on top of the box indicate which turn is next (red background means current turn). Then by clicking in a certain cell you just write down the symbol of the current player. When the game is over, an overlay screen appears and comes with a message for the winner or the tie and with a button for restart. Restart clears the board so that a new game starts.
+  The second tab is the one for the Statistics. Simple tab and read-only informs the player about the current score and the total games played in the current session. Again comes with 2 buttons for the browse inside the app.
+  The final tab is this of the settings. the first 2 cells give the ability to rename the two players while the third is used to reset the current score. For complete reset -reseting the names also- you just have to delete the typed names in the first two cells and click reset. This tab also comes with the two buttons for inner app browsing.
+  You can now enjoy playing one of the most classic mini games using your best strategy!  
